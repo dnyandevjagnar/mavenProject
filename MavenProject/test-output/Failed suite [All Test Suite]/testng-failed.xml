@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [All Test Suite]]" guice-stage="DEVELOPMENT">
+  <parameter name="carName" value="mahindra thar"/>
+  <parameter name="city" value="nashik"/>
+  <test thread-count="5" name="C:/Users/saideep/IdeaProjects/MavenProject(failed)(failed)">
+    <classes>
+      <class name="TestNGproject.testNGReport.testNGReportExample">
+        <methods>
+          <include name="test2"/>
+          <include name="test4"/>
+        </methods>
+      </class> <!-- TestNGproject.testNGReport.testNGReportExample -->
+    </classes>
+  </test> <!-- C:/Users/saideep/IdeaProjects/MavenProject(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [All Test Suite]] -->

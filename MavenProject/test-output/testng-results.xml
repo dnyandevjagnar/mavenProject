@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-06T15:02:17 IST" name="Default Suite" finished-at="2024-04-06T15:09:20 IST" duration-ms="422745">
+    <groups>
+    </groups>
+    <test started-at="2024-04-06T15:02:17 IST" name="MavenProject" finished-at="2024-04-06T15:09:20 IST" duration-ms="422745">
+      <class name="TestNGproject.dataprovider.DataProviderExample">
+        <test-method signature="dataProviderTest(java.lang.String,java.lang.String)[pri:0, instance:TestNGproject.dataprovider.DataProviderExample@1a0dcaa]" started-at="2024-04-06T15:02:18 IST" name="dataProviderTest" data-provider="name_of_dataprovider" finished-at="2024-04-06T15:04:39 IST" duration-ms="141463" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[maharastra]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataProviderTest -->
+        <test-method signature="dataProviderTest(java.lang.String,java.lang.String)[pri:0, instance:TestNGproject.dataprovider.DataProviderExample@1a0dcaa]" started-at="2024-04-06T15:04:39 IST" name="dataProviderTest" data-provider="name_of_dataprovider" finished-at="2024-04-06T15:06:57 IST" duration-ms="138199" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MP]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bhopal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataProviderTest -->
+        <test-method signature="dataProviderTest(java.lang.String,java.lang.String)[pri:0, instance:TestNGproject.dataprovider.DataProviderExample@1a0dcaa]" started-at="2024-04-06T15:06:57 IST" name="dataProviderTest" data-provider="name_of_dataprovider" finished-at="2024-04-06T15:09:20 IST" duration-ms="142976" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Karnatak]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bandlore]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataProviderTest -->
+      </class> <!-- TestNGproject.dataprovider.DataProviderExample -->
+    </test> <!-- MavenProject -->
+  </suite> <!-- Default Suite -->
+</testng-results>

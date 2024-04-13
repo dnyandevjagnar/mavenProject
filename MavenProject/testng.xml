@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="carName" value=" tata punch"/>
+    <parameter name="city" value="pune"/>
+    <parameter name="carName" value="mahindra thar"/>
+    <parameter name="city" value="nashik"/>
+    <test verbose="2" preserve-order="true"  name="C:/Users/saideep/IdeaProjects/MavenProject">
+        <classes>
+
+            <class name="TestNGproject.testNGReport.TestNGFailTestCase"/>
+
+        </classes>
+    </test>
+</suite>
