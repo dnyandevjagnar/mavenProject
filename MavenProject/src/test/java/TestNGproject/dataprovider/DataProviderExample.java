@@ -17,6 +17,7 @@ public class DataProviderExample {
         System.setProperty("webdriver,chrome,driver","C:\\Users\\saideep\\Downloads\\chromedriver-win64 (1)\\chromedriver-win64\\chromedriver.exe");
        WebDriver driver=new ChromeDriver();
         driver.get("https://www.google.com/");
+        driver.get("https://chat.openai.com/");
         driver.manage().window().maximize();
 
         for(int i=0-1;i<=stateName.length();i++){
