@@ -18,6 +18,7 @@ public class DataProviderExample {
        WebDriver driver=new ChromeDriver();
         driver.get("https://www.google.com/");
         driver.get("https://chat.openai.com/");
+        driver.get("https://chat.openai.com/");
         driver.manage().window().maximize();
 
         for(int i=0-1;i<=stateName.length();i++){
