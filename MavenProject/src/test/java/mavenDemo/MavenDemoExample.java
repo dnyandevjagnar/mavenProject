@@ -18,6 +18,7 @@ public class MavenDemoExample {
         element.sendKeys("car");
         element.click();
         System.out.println(driver.getTitle());
+        System.out.println(driver.getTitle());
 
         driver.close();
     }
