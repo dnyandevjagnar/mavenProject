@@ -19,6 +19,7 @@ public class MavenDemoExample {
         element.click();
         System.out.println(driver.getTitle());
         System.out.println(driver.getTitle());
+        System.out.println(driver.getTitle());
 
         driver.close();
     }
