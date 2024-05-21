@@ -31,6 +31,7 @@ public class PriorityExample {
         List<WebElement> element=driver.findElements(By.xpath("//option[text()='All']"));
         for(WebElement w:element){
             System.out.println(w.getText());
+            System.out.println(w.getText());
         }
     };
     @Test(priority = 5)
