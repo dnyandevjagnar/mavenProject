@@ -36,6 +36,10 @@ public class AfterGroupAnnotationExample {
     public void account(){
         System.out.println("Account manager");
     }
+     @Test
+    public void account2(){
+        System.out.println("Account2 manager");
+    }
     @AfterGroups(groups = "Agile")
     public void afterGroupMethod() {
         Assert.assertTrue(false);
